@@ -1,0 +1,76 @@
+body{
+	background-color: #203545;
+	color: white;
+}
+
+.contendor-principal{
+	margin: 0 10%;
+}
+
+header img{
+	width: 100%;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+article{
+	display: inline-block;
+	width: 58%;
+	vertical-align: top;
+}
+
+aside{
+	display: inline-block;
+	width: 38%;
+	vertical-align: top;
+}
+
+section article div{
+	display: inline-block;
+	width: 32%;
+}
+
+section article div img{
+	width: 100%;
+	height: 200px;
+}
+
+iframe{
+	width: 100%;
+	height: 250px;
+}
+
+footer{
+	margin: 30px 0;
+	background-color: #2e423f;
+}
+
+footer div{
+	display: inline-block;
+	width: 38%;
+	vertical-align: middle;
+}
+
+footer div:first-child{
+	padding: 0 30px;
+	width: 15%;
+}
+
+footer div:first-child img{
+	width: 100%;
+	height: 80px;
+}
+
+footer .productos p,
+footer .productos img{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+	transition: 0.5s all linear;
+}
+
+footer .productos img:hover{
+	transform: scale(1.2) rotate(5deg);
+}
